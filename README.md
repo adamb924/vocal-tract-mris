@@ -1,2 +1,47 @@
-# vocal-tract-mris
-Scans of my vocal tract from July 2011
+# Volumetric scans on my vocal tract
+Scans of my vocal tract from July 2011, in the public domain 
+
+One of the weaknesses of my [dissertation research](https://web.archive.org/web/20100329003501/http://apil.arizona.edu/baker/) was that it was based on data from a cadaver, so it is difficult to relate the output of the model to the speech of a living person. On July 7, 2011, I spent some time supine in an MRI machine and got a lot of scans of my vocal tract. This is volumetric data, at very good resolution: the pixels of the images are 1.1875 mm square, and the images are spaced 1.2 mm apart. Each scan required about 20 seconds to acquire. I stabilized my vocal tract by phonating throughout the acquisition; I used creaky voice to make my breath last longer. The images were acquired in Edinburgh, while I was at Queen Margaret University working on this with [Jim Scobbie](https://www.qmu.ac.uk/schools-and-divisions/shs/shs-staff/professor-james-m-scobbie/). The [British Academy](http://www.britac.ac.uk/) generously provided funding.
+
+I have released the images into the public domain with the CC0 1.0 Universal license. You may credit me (Adam Baker) if you wish, but there's no legal need.
+
+For the sociolinguists: I am a native speaker of American English. I grew up in southern California and Arizona. When prompted on forms I tick the “white” box for race/ethnicity. I was 28 years old at the time of the scans.
+
+The files below are compressed in [7-zip](http://www.7-zip.org/) compression format. The images are in [DICOM](http://en.wikipedia.org/wiki/Dicom) image format. The standard image processing software isn't going to help you. You can view them with something like [MicroDicom](http://www.microdicom.com/). Each of the compressed files below also has a [MetaImage](http://www.vtk.org/Wiki/MetaIO/Documentation) file, which a lot of medical-imaging-type programs can read.
+
+If 3D data in DICOM format is a bit intense, I've also identified the sagittal slices and put them in a zip file [here](Sagittal-Slices.zip) (~2 MB). They're in PNG format (which your computer will read easily), each having a file name like ɑ.png, ɪ.png, ʊ.png, etc. in order to identify the segment. These could be a nice teaching resource.
+
+
+| Target Production                                | Filename | Description |
+|---------------------------------------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Rest posture                                | [0062.7z](0062.7z) | This was a trial scan when I happened to be in a rest posture, and (interestingly) it ended up being a different rest posture from the one I intended to... rest in. |
+| Rest posture                                | [0063.7z](0063.7z) | This was the rest posture I intended to collect.                                                                                                                     |
+| Rest – mouth slightly open                  | [0064.7z](0064.7z) |                                                                                                                                                                      |
+| Maximum gape                                | [0065.7z](0065.7z) |                                                                                                                                                                      |
+| Maximum lowering of larynx with closed bite | [0066.7z](0066.7z) |                                                                                                                                                                      |
+| Speech rest position                        | [0067.7z](0067.7z) | I imagined that I was about to interupt somebody.                                                                                                                    |
+| ɑ                                           | [0068.7z](0068.7z) |                                                                                                                                                                      |
+| i                                           | [0069.7z](0069.7z) |                                                                                                                                                                      |
+| u                                           | [0070.7z](0070.7z) |                                                                                                                                                                      |
+| ɪ                                           | [0071.7z](0071.7z) |                                                                                                                                                                      |
+| æ                                           | [0072.7z](0072.7z) |                                                                                                                                                                      |
+| ɛ                                           | [0073.7z](0073.7z) |                                                                                                                                                                      |
+| ʌ                                           | [0074.7z](0074.7z) |                                                                                                                                                                      |
+| ʊ                                           | [0075.7z](0075.7z) |                                                                                                                                                                      |
+| e                                           | [0076.7z](0076.7z) | Making an effort to hold the early part of the monophthong.                                                                                                          |
+| o                                           | [0077.7z](0077.7z) | Making an effort to hold the early part of the monophthong.                                                                                                          |
+| ɹ                                           | [0078.7z](0078.7z) |                                                                                                                                                                      |
+| l                                           | [0079.7z](0079.7z) |                                                                                                                                                                      |
+| w                                           | [0080.7z](0080.7z) |                                                                                                                                                                      |
+| m                                           | [0081.7z](0081.7z) |                                                                                                                                                                      |
+| n                                           | [0082.7z](0082.7z) |                                                                                                                                                                      |
+| ŋ                                           | [0083.7z](0083.7z) |                                                                                                                                                                      |
+| p                                           | [0084.7z](0084.7z) |                                                                                                                                                                      |
+| t                                           | [0085.7z](0085.7z) |                                                                                                                                                                      |
+| k                                           | [0086.7z](0086.7z) |                                                                                                                                                                      |
+| q                                           | [0087.7z](0087.7z) | I speak a language with this sound, but not natively.                                                                                                                |
+| v                                           | [0088.7z](0088.7z) |                                                                                                                                                                      |
+| ð                                           | [0089.7z](0089.7z) |                                                                                                                                                                      |
+| z                                           | [0090.7z](0090.7z) |                                                                                                                                                                      |
+| ʒ                                           | [0091.7z](0091.7z) |                                                                                                                                                                      |
+| ɣ                                           | [0092.7z](0092.7z) | I speak a language with this sound, but not natively.                                                                                                                |
